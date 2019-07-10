@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48a609d4-d7e1-44fa-b8a4-74b3a0ea1471" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chubb/config/ConfigJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chubb/config/ConfigJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chubb/config/ConfigurationFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chubb/config/ConfigurationFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chubb/screenshot/ScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chubb/utilities/screenshot/ScreenShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chubb/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chubb/seleniumTest/wis/WisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chubb/utilities/html/HtmlFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chubb/utilities/html/HtmlFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/chubb/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/chubb/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/myReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/myReport.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,23 +29,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/chubb/AppTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chubb/seleniumTest/wis/WisApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="187">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#953#954#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/chubb/utilities/html/HtmlFile.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/chubb/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="17">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,7 +87,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/chubb/utilities/html/ScreenShot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chubb/utilities/screenshot/ScreenShot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/chubb/utilities/html/HtmlFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chubb/seleniumTest/WisApplicationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chubb/utilities/extentReport/Report.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/chubb/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chubb/seleniumTest/wis/WisApplication.java" />
       </list>
     </option>
   </component>
@@ -228,6 +237,27 @@
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="chubb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="seleniumTest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SeleniumTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SeleniumTest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="chubb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="seleniumTest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="wis" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SeleniumTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SeleniumTest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="chubb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="utilities" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -239,18 +269,7 @@
               <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="chubb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="utilities" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="html" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="SeleniumTest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="SeleniumTest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="chubb" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="utilities" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="screenshot" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="extentReport" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -283,11 +302,24 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.AppTest">
+    <configuration name="WisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chubb.seleniumTest.wis.WisApplication" />
+      <module name="SeleniumTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chubb.seleniumTest.wis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chubb.*" />
+          <option name="PATTERN" value="com.chubb.seleniumTest.wis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,7 +336,7 @@
       <module name="SeleniumTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chubb.*" />
+          <option name="PATTERN" value="com.chubb.seleniumTest.wis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,6 +353,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AppTest" />
+        <item itemvalue="Application.WisApplication" />
         <item itemvalue="TestNG.AppTest.noCommerceTittleTest" />
       </list>
     </recent_temporary>
@@ -339,36 +372,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.07.07 at 19h 05m 42s.xml">
+    <history-entry file="AppTest - 2019.07.09 at 20h 10m 07s.xml">
       <configuration name="AppTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppTest - 2019.07.07 at 19h 06m 25s.xml">
+    <history-entry file="AppTest - 2019.07.09 at 20h 11m 07s.xml">
       <configuration name="AppTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppTest - 2019.07.07 at 19h 07m 51s.xml">
+    <history-entry file="AppTest - 2019.07.09 at 20h 12m 20s.xml">
       <configuration name="AppTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppTest - 2019.07.07 at 19h 11m 56s.xml">
+    <history-entry file="AppTest - 2019.07.09 at 20h 21m 02s.xml">
       <configuration name="AppTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppTest - 2019.07.07 at 19h 31m 30s.xml">
+    <history-entry file="AppTest - 2019.07.09 at 20h 23m 47s.xml">
       <configuration name="AppTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppTest - 2019.07.07 at 19h 33m 49s.xml">
+    <history-entry file="AppTest - 2019.07.09 at 20h 26m 09s.xml">
       <configuration name="AppTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppTest - 2019.07.07 at 19h 54m 04s.xml">
+    <history-entry file="AppTest - 2019.07.09 at 20h 36m 32s.xml">
       <configuration name="AppTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppTest - 2019.07.07 at 20h 44m 23s.xml">
+    <history-entry file="AppTest - 2019.07.09 at 20h 38m 36s.xml">
       <configuration name="AppTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppTest - 2019.07.07 at 20h 45m 53s.xml">
+    <history-entry file="AppTest - 2019.07.09 at 20h 42m 22s.xml">
       <configuration name="AppTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppTest - 2019.07.07 at 21h 13m 56s.xml">
+    <history-entry file="AppTest - 2019.07.09 at 20h 46m 40s.xml">
       <configuration name="AppTest" configurationId="TestNG" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -383,12 +425,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2859477" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3611111" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -408,27 +450,10 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chubb/selenium/applications/MarineTest.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/chubb/config/ConfigurationFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="268">
           <caret line="120" column="45" lean-forward="true" selection-start-line="120" selection-start-column="45" selection-end-line="120" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chubb/config/ConfigJSON.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -439,36 +464,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chubb/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chubb/utilities/html/HtmlFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chubb/utilities/screenshot/ScreenShot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/chubb/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="148">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chubb/utilities/html/HtmlFile.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="510">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chubb/utilities/extentReport/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1395#1396#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1587#1588#0" expanded="true" />
+            <element signature="e#1620#1621#0" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
+            <element signature="e#1720#1721#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
+            <element signature="e#1782#1783#0" expanded="true" />
+            <element signature="e#1826#1827#0" expanded="true" />
+            <element signature="e#1858#1859#0" expanded="true" />
+            <element signature="e#1906#1907#0" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#2002#2003#0" expanded="true" />
+            <element signature="e#2046#2047#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chubb/utilities/screenshot/ScreenShot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chubb/config/ConfigJSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/internal/Invoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="460" selection-start-line="460" selection-end-line="460" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/chubb/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chubb/seleniumTest/wis/WisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#953#954#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
           </folding>
         </state>
       </provider>

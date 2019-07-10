@@ -8,6 +8,7 @@ import java.io.IOException;
 import static j2html.TagCreator.*;
 
 public class HtmlFile {
+
     public void createHtml(ConfigurationFile configFile, String timeStamp)
     {
         String htmlLocation = configFile.getPdfLocation();

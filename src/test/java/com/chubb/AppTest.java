@@ -10,6 +10,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.chubb.config.ConfigJSON;
 import com.chubb.config.ConfigurationFile;
 
+import com.chubb.seleniumTest.wis.WisApplication;
 import com.chubb.utilities.html.HtmlFile;
 import com.chubb.utilities.screenshot.ScreenShot;
 import org.openqa.selenium.*;
@@ -25,17 +26,19 @@ import java.util.Date;
 
 public class AppTest {
     private WebDriver webDriver;
+    WisApplication wisApp;
     private ExtentHtmlReporter extentHtmlReporter;
     private ExtentReports extentReports;
     private ExtentTest extentTest;
-    private ConfigJSON json = new ConfigJSON();
-    private ConfigurationFile configFile = json.getConfigurationFile();
-    private String timeStamp = new SimpleDateFormat(configFile.getDateFormat()).format(new Date());
+    private ConfigJSON json;
+    private ConfigurationFile configFile;
+
     private HtmlFile htmlFile;
 
     @BeforeTest
     public void setExtent(){
 
+        String timeStamp = new SimpleDateFormat(configFile.getDateFormat()).format(new Date());
         htmlFile = new HtmlFile();
         htmlFile.createHtml(configFile, timeStamp);
 
@@ -53,47 +56,46 @@ public class AppTest {
         extentReports.setSystemInfo("Browser","Chrome");
     }
 
-    @AfterTest
-    public void endReport(){
-        extentReports.flush();
-        webDriver.quit();
-    }
-
     @BeforeSuite
     public void setup(){
-        System.setProperty("webdriver.chrome.driver", configFile.getDriverPath());
-        webDriver = new ChromeDriver();
-        webDriver.manage().window().maximize();
-        webDriver.get("http://demo.nopcommerce.com/");
+        json = new ConfigJSON();
+        configFile = json.getConfigurationFile();
+
+        wisApp = new WisApplication();
+        wisApp.setConfigFile(configFile);
+        webDriver = wisApp.startWebDriver();
+
+        wisApp.setWebDriver(webDriver);
     }
 
-    @Test
+    @Test(priority = 0)
+    public void loadWebPage(){
+        extentTest = extentReports.createTest("Load Web Page");
+        Assert.assertEquals("WIS Web Insurance Sale.", wisApp.loadWebPage());
+    }
+
+    @Test(priority = 1)
     public void logIn(){
         extentTest = extentReports.createTest("Application Login");
-        System.out.println("Login");
-        Assert.assertEquals("nopCommerce demo stor","nopCommerce demo store");
+        Assert.assertEquals("COTIZACIÓNA",wisApp.getLogin());
     }
 
-    @Test
-    public void noCommerceTittleTest(){
-        extentTest = extentReports.createTest("Auto - Tittle");
-
-        String tittle = webDriver.getTitle();
-        System.out.println(tittle);
-        Assert.assertEquals(tittle,"nopCommerce demo store");
-    }
-
-    @Test
-    public void noCommerceLogoTest(){
-        extentTest = extentReports.createTest("Pyme - Logo");
-        boolean status = webDriver.findElement(By.xpath("//img[@alt='nopCommerce demo store']")).isDisplayed();
-        Assert.assertTrue(status);
-    }
-
-    @Test
-    public void noCommerceLoginTest(){
-        extentTest = extentReports.createTest("Vida - Login");
+    @Test(priority = 2)
+    public void crearCotizacion(){
+        extentTest = extentReports.createTest("Crear Cotización");
         Assert.assertTrue(true);
+    }
+
+    @Test(priority = 3)
+    public void consultarCotizacion(){
+        extentTest = extentReports.createTest("Consultar Cotización");
+        Assert.assertEquals("0379136",wisApp.getConsultarCotizacion());
+    }
+
+    @Test(priority = 4)
+    public void expedirCotizacion(){
+        extentTest = extentReports.createTest("Expedir Cotización");
+        Assert.assertTrue(false);
     }
 
     @AfterMethod
@@ -115,5 +117,11 @@ public class AppTest {
         else if(result.getStatus()== ITestResult.SUCCESS) {
             extentTest.log(Status.PASS, "TEST CASE PASSED: " + result.getName());
         }
+    }
+
+    @AfterTest
+    public void endReport(){
+        extentReports.flush();
+        wisApp.closeWebDriver();
     }
 }
